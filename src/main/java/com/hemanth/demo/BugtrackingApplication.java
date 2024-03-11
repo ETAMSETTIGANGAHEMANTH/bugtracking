@@ -1,0 +1,17 @@
+package com.hemanth.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+
+
+@SpringBootApplication
+
+public class BugtrackingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BugtrackingApplication.class, args);
+	}
+
+}
